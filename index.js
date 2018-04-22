@@ -18,16 +18,6 @@ function getDataFromApi(term, callback) {
   $.ajax(settings);
 }
 
-function renderResultCount(resultCount) {
-  console.log(resultCount);
-  let results =  `
-    <div>
-      <p>${'.results-count'}></p> 
-    </div>
-  `;
-  return results;
-}
-
 function renderResult(result) {
   console.log(result);
   let url = '';
