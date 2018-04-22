@@ -30,6 +30,7 @@ function renderResultCount(resultCount) {
 
 function renderResult(result) {
   console.log(result);
+  renderResultCount();
   let url = '';
   if(result.id.kind === "youtube#channel") {
     url = `https://www.youtube.com/channel/${result.id.channelId}`;
