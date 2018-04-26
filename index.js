@@ -63,7 +63,7 @@ function termOnSubmit(){
     if (event.keyCode == 13) {
       termOnSubmit();
     }
-    console.log(event.keyCode);
+    // console.log(event.keyCode);
   });
 }
 
