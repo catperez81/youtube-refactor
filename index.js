@@ -41,7 +41,7 @@ function renderResult(result) {
     <div>
       <h2>
       <a class="results" href="${url}" target="_blank">${result.snippet.title}</a></h2>
-      <p><a class="results" href="${url}" target="_blank"><img src = ${result.snippet.thumbnails.medium.url}></img></a></p> 
+      <p><a class="results" href="${url}" target="_blank"><img src = ${result.snippet.thumbnails.medium.url} aria-live="off"></img></a></p> 
     </div>
   `;
 }
